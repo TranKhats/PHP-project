@@ -1,0 +1,15 @@
+.wrap-sign{
+    width: 80%;
+    margin: auto;
+}
+.form-signin input{
+    margin-bottom: 20px;
+}
+.form-signin .btn-lg{
+    width: 50%! important;
+    margin: auto;
+}
+button.close{
+    margin-top: -39px !important;
+    opacity: 3 !important;
+}

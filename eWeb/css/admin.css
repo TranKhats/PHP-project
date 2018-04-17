@@ -1,0 +1,155 @@
+body{
+    background: white;
+}
+section .container{
+    border-radius: 5px;
+    background: white;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    box-shadow: 1px 1px 10px #a09494;
+}
+/* ---------------------- */
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+#main-content h4{
+    color: #159c0d;
+    text-align: center;
+}
+#admin-menu li{
+    text-align: center;
+    margin: 0;
+    width: 136px;
+    padding: 10px;
+    font-size: 16px;
+    background: #daf3ee;
+    border-radius: 4px;
+    color: #0271d4;
+}
+#admin-menu li:hover{
+    background: #ffe300;
+    cursor: pointer;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#main-content tr:focus{
+    background: burlywood;
+}
+td, th {
+    text-align: left !important;
+    border: 1px solid #dddddd;
+    /* text-align: left; */
+    /* padding: 8px; */
+    padding:8px 8px 8px 20px;
+    text-align: center;
+}
+.table-product th {
+    background: #0101de61;
+}
+#main-content tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.producer-val{
+    width: 200px;
+}
+.id-product{
+    width: 70px;
+}
+
+.type-product,.producer{
+    width: 150px;
+}
+.name-product{
+    width: 250px;
+}
+.import,.export{
+    width: 150px;
+}
+#main-content .table-product table tr{
+    cursor: pointer;
+}
+#update-product .name-product-update{
+    margin-right: 15px;
+}
+#update-product .left .erro{
+    padding-right: 15px;
+}
+.erro{
+    height: 13px;
+    font-size: 12px;
+    color: red;
+    margin: 0;
+}
+.type{
+    margin-bottom: 25px;
+}
+/* ------------FORM-UPDATE-------------- */
+#update-product label{
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    font-weight: normal;
+}
+#update-product label input,#update-product label select{
+    margin-left: 8px;
+    height: 30px;
+    border: #00000029 solid 1px;
+    width: 70%;
+    border-radius: 3px
+}
+#update-product form{
+    position: relative;
+}
+#update-product label span{
+    text-align: left;
+}
+#update-product form .left,#update-product form .right{
+    width: 50%;
+    float: left;
+}
+#update-product form{
+    overflow: hidden;
+    border-radius: 5px;
+    border: #2564d254 solid 1px;
+    margin: auto;
+    width: 80%;
+    padding: 20px 20px 60px 20px;
+
+}
+#update-product  .action{
+    overflow: hidden;
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+}
+.action input{
+    margin-left: 7px;
+    width: 74px;
+    border-radius: 0.5px;
+    text-align: center;
+}
+/* --------------------MESSAGE-BOX------------------------ */
+#messageBox{
+    padding: 40px;
+    border: solid 1px #d8d89a;
+    border-radius: 6px;
+    display: none;
+    top: 20%;
+    left: 50%;
+    z-index: 5;
+    position: absolute;
+    background: aqua;
+}
+#messageBox:after{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: -15px;
+    z-index: 1;
+    border: solid 7px transparent;
+    border-right-color: red;
+}
