@@ -1,0 +1,164 @@
+.container *{
+    /* margin: 0; */
+    /* padding: 0; */
+}
+body{
+    background: #f0f0f0;
+}
+.wrap-cart{
+    position: relative;
+    padding: 20px;
+    max-width: 650px;
+    margin: auto;
+    background: white;
+    box-shadow: 1px 0px 20px 1px #c7bcbc;
+
+}
+.added-product{
+    border-bottom-style: groove;
+    border-bottom-width: 1px;
+    border-bottom-color: #656e7514;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.added-product img{
+    width: 100px;
+    
+}
+.added-product .info-pr{
+}
+.added-product .remove-added{
+    width: 51px;
+    border-radius: 2px;
+    float: right;
+    margin-left: 14px;
+    background: none;
+}
+.info-added-prts .final-price{
+    float: right;
+}
+#list-products{
+    /* padding: 20px; */
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+}
+.added-product .info-added-prts{
+    padding-left: 38px;
+}
+.info-color{
+    margin-top: 43px;
+    overflow: hidden;
+    height: 40px;
+}
+.final-price{
+    color:red;
+}
+.info-color strong{
+    padding-top: 3px;
+}
+.info-color input{
+    margin-left: 10px;
+}
+.info-color input[type=radio]:before{
+    width: 19px;
+    height: 19px;
+
+    content: ' ';
+    position: absolute;
+    background-color: blue;
+    pointer-events: none;
+}
+.info-color input[type=radio]:checked:before {
+    background-color:red;
+}
+.info-color *{
+    float: left;
+}
+.info-color ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.choose-number{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #bfc7c54f;
+    width: 93px;
+    height: 30px;
+    float: right;
+    margin-top: -41px;
+}
+.money-sum{
+    margin-top: 10px;
+    padding: 7px;
+}
+.money-sum .sum{
+    float: right;
+    color: tomato;
+}
+.choose-number >div{
+    width: 30px;
+    float: left;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+.choose-number >div:hover{
+    cursor: pointer;
+}
+.choose-number .number{
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 0.5px;
+    border-color: #bfc7c54f;
+}
+.info-customer .name-cus,.info-customer .phone-cus{
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 0.75px;
+    border-color: #a0adb970;
+    height: 33px;
+    padding: 5px;
+    width: 44%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 27px;
+}
+.info-customer .sex{
+    margin-right: 20%;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+.info-customer .sex input{
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 0px;
+}
+.info-customer button{
+    padding: 10px;
+    width: 29%;
+    font-weight: 700;
+    color: white;
+    background: #fdba1d;
+    border-radius: 5px;
+    margin-left: 61%;
+}
+#book label{
+    font-weight: 300 !important;
+}
+#book textarea{
+    margin-bottom: 10px;
+    width: 93%;
+    border-radius: 5px;
+    border-color: #6d5e4b4a;
+}
+#book .erro{
+    width: 40%;
+    color: #ff8f00;
+}

@@ -1,0 +1,87 @@
+.chat-wrapper{
+    z-index: 99;
+    position: fixed;
+    top: 11px;
+    left: 47px;
+    background: white;
+    width: 320px;
+    padding: 20px;
+}
+.message-box{
+    width: 275px;
+    /* overflow: hidden; */
+}
+.mes{
+    border: solid #40383833 1px;
+    border-radius: 5px;
+    background: #f5f5f536;
+    margin: 5px;
+    padding: 5px;
+    width: 67%;
+    float: left;
+}
+
+.avartar{
+    padding: 6px;
+    margin: 5px;
+    width: 25%;
+    float: left;
+    font-weight: 500;
+    color: #d20e0ed6;
+}
+#chat-form{
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+}
+.avartar a{
+    color: #de9c87;
+}
+#chat-form form{
+    position: relative;
+    margin-top: 9px;
+}
+#chat-form form textarea{
+    width: 75%;
+    border-radius: 4px;
+}
+#chat-form form button{
+    margin-bottom: 7px;
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    background: #fdf3f3;
+    border-radius: 4px;
+    border: none;
+    padding: 4px;
+    width: 43px;
+}
+
+#messager{
+    
+    height: 200px;
+    position: relative;
+    overflow: auto; 
+}
+#messager::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+#messager div{
+    z-index: 80;
+}
+
+/* <div class="chat-wrapper">
+<div class="chat-content">
+    <div class="message-box" id="messager1">
+    </div>
+    <div id="chat-form">
+        <!-- method="POST" action="include/messeger.php" -->
+        <form>
+            <textarea rows="2" placeholder="Nhắn tin..." id="message1"></textarea>
+            <input type='button' id="sent-message" value='Gởi'>
+        </form>
+    </div>
+</div>
+</div> */

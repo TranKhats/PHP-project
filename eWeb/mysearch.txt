@@ -1,0 +1,2 @@
+tennsx>:dell;asus;apple;hp;acer;samsung;//
+tensp>:Apple Iphone 3;

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".btn1").click(function () {
+                
+                $("#para").slideUp();
+            });
+            $(".btn2").click(function () {
+                $("#para").css({"display":"block"});
+                $("#para").slideDown();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div id="para">This is a paragraph.</div>
+
+    <button class="btn1">Slide up</button>
+    <button class="btn2">Slide down</button>
+
+</body>
+<style>
+    div{
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        display: none;
+    }
+</style>
+</html>
