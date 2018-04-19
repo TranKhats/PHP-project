@@ -1,3 +1,0 @@
-chip>: core i3;core i5;core i7;//
-ram>:8Gb,4gb,16,gb;//
-bonhotrong>:4gb,8Gb,16gb;//
